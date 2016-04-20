@@ -40,20 +40,25 @@ jQuery(function() {
       if (results.length) {
         $search_results.empty(); // Clear any old results
 
+        $search_results.html('<li>Search Results</li>');
+
         // Iterate over the results
         results.forEach(function(result) {
           var item = loaded_data[result.ref];
 
           // Build a snippet of HTML for this result
-          var appendString = 'Search Results<li><a href="' + item.url + '">' + item.title + '</a></li>';
+          var appendString = '<a href="' + item.url + '">' + item.title + '</a>';
 
           // Add it to the results
           $search_results.append(appendString);
+          $('#search_box').blur();
         });
       // } else if (!results.length && value.length<=0) {
       //   $search_results.html('');
       } else {
         $search_results.html('<li>No results found</li>');
+        $('#search_box').blur();
+
       }
     });
   }
