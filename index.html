@@ -12,8 +12,27 @@ layout: default
 <hr />
 <!-- End intro -->
 
+<form action="get" id="site_search">
+  <input type="text" id="search_box">
+  <input type="submit" value="search">
+</form>
+
+<!-- for the search option -->
+<script src="{{ "/assets/js/lunr.min.js" | prepend: site.baseurl }}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="{{ "/assets/js/search.js" | prepend: site.baseurl }}"></script>
+
 <div class="home">
 
+  <ul class="search_results" id="post-list"></ul>
+
+</div>
+
+<hr />
+
+<div class="home">
+
+<h1>Latest Posts</h1>
   <ul id="post-list">
     {% for post in paginator.posts %}
       <li>
