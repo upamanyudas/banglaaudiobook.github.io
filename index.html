@@ -1,1 +1,40 @@
-Hello World
+---
+layout: default
+---
+
+<!-- Brief intro -->
+<div class="header-intro">
+  <h2><a href="#"><img src="assets/images/logo-full.png" alt="BanglaAudiobook.in" width="350px"></a></h2>
+  <p>Enough of ইংরাজি books.
+  <br><i class="fa fa-book" aria-hidden="true"></i><a href="/about"> Lets listen to বাংলা অডিওবুক. &rarr;</a>
+  <br><i class="fa fa-headphones" aria-hidden="true"></i> Plug on your headphones for optimum sound quality.</p>
+</div>
+<hr />
+<!-- End intro -->
+
+<div class="home">
+
+  <ul id="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+        <aside class="dates">{{ post.date | date: "%b %-d" }}</aside>
+        </a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <h2>{{ post.description }}</h2></a>
+        <!-- <p>
+        {{ post.content | truncatewords: 50 }}
+        </p> -->
+      </li>
+    {% endfor %}
+  </ul>
+
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a class="pagination-link" href="{{ paginator.previous_page_path }}" class="previous"><span class="arrow">&larr;</span> Previous</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a class="pagination-link" href="{{ paginator.next_page_path }}" class="next">Next <span class="arrow">&rarr;</span></a>
+    {% endif %}
+  </div>
+
+</div>
