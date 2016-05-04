@@ -16,6 +16,15 @@
   <script src="{{ "/assets/js/audiojs/audio.min.js" | prepend: site.baseurl }}"></script>
 
   <style>
+    .audiojs .play-pause {
+      width: 40px;
+      padding: 6px 8px;
+    }
+
+    .audiojs .time {
+      float: right;
+    }
+
     .audiojs {
       display: table;
       width: 100%;
@@ -29,7 +38,7 @@
       }
 
       .play-pause {
-          padding: 0 6px;
+          padding: 6px 7px;
 
           > p {
               margin: 0;
