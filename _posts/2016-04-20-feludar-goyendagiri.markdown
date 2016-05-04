@@ -5,7 +5,7 @@ author: "Satyajit Ray"
 narrator: "Upamanyu Das"
 date:   2014-04-20 12:40:00
 description: "A sleuth in making!"
-categories: adventure, crime
+categories: adventure, crime, feluda
 ---
 
 <br>

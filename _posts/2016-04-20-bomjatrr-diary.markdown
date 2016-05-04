@@ -5,7 +5,7 @@ author: "Satyajit Ray"
 narrator: "Upamanyu Das"
 date:   2014-04-20 12:10:00
 description: "A young publisher finds Professor Shonku's astonishing Diary"
-categories: sci-fi, adventure
+categories: sci-fi, adventure, shonku
 ---
 
 <br>
