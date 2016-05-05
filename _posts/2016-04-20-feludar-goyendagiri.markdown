@@ -3,9 +3,12 @@ layout: post
 title:  "Feluda'r Goyendagiri"
 author: "Satyajit Ray"
 narrator: "Upamanyu Das"
-date:   2014-04-20 12:40:00
+date:   2016-04-20 12:40:00
 description: "A sleuth in making!"
+image: 002_feludar_goyendagiri.jpg
+type: audiobook
 categories: adventure, crime, feluda
+tags: feluda, adventure, satyajit ray, lalmohan babu, topshe, bangla audiobook
 ---
 
 <br>

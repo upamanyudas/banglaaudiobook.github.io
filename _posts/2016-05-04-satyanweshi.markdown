@@ -3,9 +3,12 @@ layout: post
 title:  "Satyanweshi"
 author: "Saradindu Bandopadhyay"
 narrator: "Upamanyu Das"
-date:   2014-05-04 09:15:00
+date:   2016-05-04 09:15:00
 description: "A young detective takes a false identity to solve a horrible crime."
+image: 003_satyanweshi.jpg
+type: audiobook
 categories: crime, thriller, byomkesh
+tags: byomkesh, adventure, saradindu bandopadhyay, bangla audiobook
 ---
 
 <br>

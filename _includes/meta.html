@@ -1,0 +1,73 @@
+{% if page.url == "/404.html" %}
+        <meta http-equiv="refresh" content="5; url=/">
+{% endif %}
+<!-- facebook metadata -->
+  <meta content="{{ site.title }} | BanglaAudiobook.in" property="og:site_name">
+{% if page.title %}
+  <meta content="{{ page.title }} | BanglaAudiobook.in" property="og:title">
+{% else %}
+  <meta content="{{ site.title }} | BanglaAudiobook.in" property="og:title">
+{% endif %}
+{% if page.title %}
+  <meta content="article" property="og:type">
+{% else %}
+  <meta content="website" property="og:type">
+{% endif %}
+{% if page.description %}
+  <meta content="{{ page.description }}" property="og:description">
+{% elsif page.categories contains "audiobook" %}
+  <meta content="{{ page.content | strip_html }}" property="og:description">
+{% else %}
+  <meta content="{{ site.description }}" property="og:description">
+{% endif %}
+{% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+{% endif %}
+{% if page.date %}
+  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+  <meta content="{{ site.url }}/about/" property="article:author">
+{% endif %}
+{% if page.image and page.categories contains "audiobook" %}
+  <meta content="{{ site.url }}/assets/images/audiobook_covers/{{ page.image }}" property="og:image">
+{% elsif page.image %}
+  <meta content="{{ site.url }}/assets/images/{{ page.image }}" property="og:image">
+{% else %}
+  <meta content="../assets/images/logo-icon.jpg" property="og:image">
+{% endif %}
+{% if page.categories %}
+  {% for category in page.categories limit:1 %}
+  <meta content="{{ category }}" property="article:section">
+  {% endfor %}
+{% endif %}
+{% if page.tags %}
+  {% for tag in page.tags %}
+  <meta content="{{ tag }}" property="article:tag">
+  {% endfor %}
+{% endif %}
+
+<!-- twitter metadata -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@audiobookbangla">
+<meta name="twitter:creator" content="@cloudstudio">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }} | BanglaAudiobook.in">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }} | BanglaAudiobook.in">
+{% endif %}
+{% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+{% elsif page.categories contains "audiobook" %}
+  <meta name="twitter:description" content="{{ page.content | strip_html }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+{% if page.image and page.categories contains "audiobook" %}
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/audiobook_covers/{{ page.image }}">
+{% elsif page.image %}
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.image }}">
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.url }}/images/logo-icon.png">
+{% endif %}

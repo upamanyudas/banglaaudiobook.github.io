@@ -3,9 +3,12 @@ layout: post
 title:  "Bomjatri'r Diary"
 author: "Satyajit Ray"
 narrator: "Upamanyu Das"
-date:   2014-04-20 12:10:00
+date:   2016-04-20 12:10:00
 description: "A young publisher finds Professor Shonku's astonishing Diary"
+image: 001_bomjatrir_diary.jpg
+type: audiobook
 categories: sci-fi, adventure, shonku
+tags: shonku, adventure, satyajit ray, science fiction, mission to mars, space, bangla audiobook
 ---
 
 <br>
