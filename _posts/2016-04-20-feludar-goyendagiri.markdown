@@ -22,7 +22,7 @@ tags: feluda, adventure, satyajit ray, lalmohan babu, topshe, bangla audiobook
 <audio src="http://audiobookfiles.upamanyu.in/002_feludar_goyendagiri.mp3" preload="auto"></audio>
 
 <br>
-![Bomjatri'r Diary](/assets/images/audiobook_covers/002_feludar_goyendagiri.jpg)
+![Feluda'r Goyendagiri](/assets/images/audiobook_covers/002_feludar_goyendagiri.jpg)
 
 Plot Summary
 ------------

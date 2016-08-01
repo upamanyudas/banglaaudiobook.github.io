@@ -22,7 +22,7 @@ tags: byomkesh, adventure, saradindu bandopadhyay, bangla audiobook
 <audio src="http://audiobookfiles.upamanyu.in/003_satyanweshi.mp3" preload="auto"></audio>
 
 <br>
-![Bomjatri'r Diary](/assets/images/audiobook_covers/003_satyanweshi.jpg)
+![Satyanweshi](/assets/images/audiobook_covers/003_satyanweshi.jpg)
 
 Plot Summary
 ------------
