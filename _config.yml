@@ -1,7 +1,7 @@
 # Site settings
 title: "BanglaAudiobook.in"
 email: info@banglaaudiobook.in
-description: BanglaAudiobook.in &copy <script>document.write(new Date().getFullYear())</script> - go listen!
+description: BanglaAudiobook.in © <script>document.write(new Date().getFullYear())</script> - go listen!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://banglaaudiobook.in" # the base hostname & protocol for your site
 twitter_username: audiobookbangla
