@@ -1,13 +1,12 @@
 # Site settings
 title: "BanglaAudiobook.in"
 email: info@banglaaudiobook.in
-description: > # this means to ignore newlines until "baseurl:"
-  BanglaAudiobook.in &copy <script>document.write(new Date().getFullYear())</script> - go listen!
+description: BanglaAudiobook.in &copy <script>document.write(new Date().getFullYear())</script> - go listen!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://banglaaudiobook.in" # the base hostname & protocol for your site
 twitter_username: audiobookbangla
 github_username:  banglaaudiobook
-gravatar_url: http://www.gravatar.com/avatar/91d05b8aab2671b4abc8a8c76435bf5a
+gravatar_url: http://www.gravatar.com/avatar/bb857653fcc6b02ec638ee4e64eaf872?s=120
 
 googleplus_user: '100301306098556898455'
 googleplus_hidden: false

@@ -11,7 +11,7 @@ permalink: /about/
 Follow @audiobookbangla
 </a>
 
-Hi there!
+Hello there!
 
 BanglaAudiobook.in, is an effort to bring to life the literary treasures of *Bengali*. This started out as a small effort to record the audio versions of my favorite stories and novels for my siblings. Their unability to read *Bengali* and enjoy the stories I enjoyed as a child, pushed me to record the first story.
 
