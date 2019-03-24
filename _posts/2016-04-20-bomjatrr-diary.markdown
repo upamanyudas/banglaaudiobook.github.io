@@ -21,7 +21,7 @@ tags: shonku, adventure, satyajit ray, science fiction, mission to mars, space, 
 
 <!-- <audio src="http://audiobookfiles.upamanyu.in/001_bomjatrir_diary.mp3" preload="auto"></audio> -->
 <audio id="player" controls settings>
-	<source src="http://audiobookfiles.upamanyu.in/004_professor_shonku_o_ijipsiyo_atonko.mp3" type="audio/mp3" />
+	<source src="http://audiobookfiles.upamanyu.in/001_bomjatrir_diary.mp3" type="audio/mp3" />
 </audio>
 
 <br>
