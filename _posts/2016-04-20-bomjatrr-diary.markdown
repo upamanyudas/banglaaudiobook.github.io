@@ -20,7 +20,7 @@ tags: shonku, adventure, satyajit ray, science fiction, mission to mars, space, 
 <br>
 
 <!-- <audio src="http://audiobookfiles.upamanyu.in/001_bomjatrir_diary.mp3" preload="auto"></audio> -->
-<audio id="player" crossorigin playsinline>
+<audio id="player" controls speed>
 	<source src="http://audiobookfiles.upamanyu.in/001_bomjatrir_diary.mp3" type="audio/mp3" />
 </audio>
 
