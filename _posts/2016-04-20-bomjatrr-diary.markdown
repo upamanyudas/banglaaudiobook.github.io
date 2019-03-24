@@ -5,27 +5,14 @@ author: "Satyajit Ray"
 narrator: "Upamanyu Das"
 date:   2016-04-20 12:10:00
 description: "A young publisher finds Professor Shonku's astonishing Diary"
-image: 001_bomjatrir_diary.jpg
+introduction: "ব্যোমযাত্রীর ডায়রি (The Spaceman’s Diary) is the first story of Professor Shonku series by Satyajit Ray. The story follows Professor Trilokeshwar Shonku, a scientist and inventor, who voyaged to Mars and after being attacked by the Martians, fled to a planet named <em>Tafa</em>, where the foolish inhabitants welcomed him cordially and made him a citizen of their planet."
+firstpublished: "Sandesh, September - November 1961"
+filename: 001_bomjatrir_diary
 type: audiobook
 categories: sci-fi, adventure, shonku
 tags: shonku, adventure, satyajit ray, science fiction, mission to mars, space, bangla audiobook
 ---
 
-<br>
-
-ব্যোমযাত্রীর ডায়রি (The Spaceman’s Diary) is the first story of Professor Shonku series by Satyajit Ray. The story follows Professor Trilokeshwar Shonku, a scientist and inventor, who voyaged to Mars and after being attacked by the Martians, fled to a planet named *Tafa*, where the foolish inhabitants welcomed him cordially and made him a citizen of their planet.
-
-**First published**: _Sandesh_, September - November 1961
-
-<br>
-
-<!-- <audio src="http://audiobookfiles.upamanyu.in/001_bomjatrir_diary.mp3" preload="auto"></audio> -->
-<audio id="player" controls speed>
-	<source src="http://audiobookfiles.upamanyu.in/001_bomjatrir_diary.mp3" type="audio/mp3" />
-</audio>
-
-<br>
-![Bomjatri'r Diary](/assets/images/audiobook_covers/001_bomjatrir_diary.jpg)
 
 Plot Summary
 ------------

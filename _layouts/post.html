@@ -26,7 +26,21 @@ layout: default
   <!-- Audio.js End -->
 
   <article class="post-content">
-    {{ content }}
+    <br>
+
+    {{ page.introduction }}
+
+    <br><br> 
+
+    <strong>First published</strong>: {{ page.firstpublished }}
+
+    <br><br>
+
+    <audio id="player" controls><source src="http://audiobookfiles.upamanyu.in/{{ page.filename }}" type="audio/mp3" /></audio>
+    <br>
+    <p><img src="/assets/images/audiobook_covers/{{ page.filename }}.jpg" alt="{{ page.title }}" /></p>
+    <br>
+    {{ page.content }}
   </article>
 
   <hr>
@@ -41,14 +55,14 @@ layout: default
     Follow @fffabs
     </a>
     <script type="text/javascript">
-    window.twttr = (function (d, s, id) {
-      var t, js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src= "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-    }(document, "script", "twitter-wjs"));
+      window.twttr = (function (d, s, id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src= "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+      }(document, "script", "twitter-wjs"));
     </script>
   </div>
 

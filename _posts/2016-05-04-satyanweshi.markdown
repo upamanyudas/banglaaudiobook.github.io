@@ -5,25 +5,14 @@ author: "Saradindu Bandopadhyay"
 narrator: "Upamanyu Das"
 date:   2016-05-04 09:15:00
 description: "A young detective takes a false identity to solve a horrible crime."
-image: 003_satyanweshi.jpg
+introduction: "সত্যান্বেষী (Lit: The Truth Seeker) is a detective story written by Sharadindu Bandyopadhyay featuring the Bengali detective Byomkesh Bakshi and his friend, assistant, and narrator Ajit Bandyopadhyay. It is the first byomkesh adventure written by Sharadindu Bandyopadhyay"
+firstpublished: "1931"
+filename: 003_satyanweshi
 type: audiobook
 categories: crime, thriller, byomkesh
 tags: byomkesh, adventure, saradindu bandopadhyay, bangla audiobook
 ---
 
-<br>
-
-সত্যান্বেষী (Lit: The Truth Seeker) is a detective story written by Sharadindu Bandyopadhyay featuring the Bengali detective Byomkesh Bakshi and his friend, assistant, and narrator Ajit Bandyopadhyay. It is the first byomkesh adventure written by Sharadindu Bandyopadhyay
-
-**First published**: 1931
-
-<br>
-
-<!-- <audio src="http://audiobookfiles.upamanyu.in/003_satyanweshi.mp3" preload="auto"></audio> -->
-<audio id="player" controls><source src="http://audiobookfiles.upamanyu.in/003_satyanweshi.mp3" type="audio/mp3" /></audio>
-
-<br>
-![Satyanweshi](/assets/images/audiobook_covers/003_satyanweshi.jpg)
 
 Plot Summary
 ------------

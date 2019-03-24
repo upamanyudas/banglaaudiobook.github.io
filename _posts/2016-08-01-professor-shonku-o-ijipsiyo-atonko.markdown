@@ -5,25 +5,14 @@ author: "Satyajit Ray"
 narrator: "Upamanyu Das"
 date:   2016-08-01 18:45:00
 description: "Shonku travels to Egypt to find the secret of the mummies"
-image: 004_professor_shonku_o_ijipsiyo_atonko.jpg
+introduction: "প্রোফেসর শঙ্কু ও ইজিপ্সিয় আতঙ্ক (Professor Shonku and the Egyptian Curse) is the second story of Professor Shonku series by Satyajit Ray. The story follows Professor Trilokeshwar Shonku, a scientist and inventor, who travels to egypt to discover the secret of mummies, but ends up tangled in a dangerous curse."
+firstpublished: "Sandesh, April 1963"
+filename: 004_professor_shonku_o_ijipsiyo_atonko
 type: audiobook
 categories: adventure, thriller, shonku
 tags: shonku, adventure, satyajit ray, bangla audiobook
 ---
 
-<br>
-
-প্রোফেসর শঙ্কু ও ইজিপ্সিয় আতঙ্ক (Professor Shonku and the Egyptian Curse) is the second story of Professor Shonku series by Satyajit Ray. The story follows Professor Trilokeshwar Shonku, a scientist and inventor, who travels to egypt to discover the secret of mummies, but ends up tangled in a dangerous curse.
-
-**First published**: _Sandesh_, April 1963
-
-<br>
-
-<!-- <audio src="http://audiobookfiles.upamanyu.in/004_professor_shonku_o_ijipsiyo_atonko.mp3" preload="auto"></audio> -->
-<audio id="player" controls><source src="http://audiobookfiles.upamanyu.in/004_professor_shonku_o_ijipsiyo_atonko.mp3" type="audio/mp3" /></audio>
-
-<br>
-![Professor Shonku O Ijipsiyo Atonko](/assets/images/audiobook_covers/004_professor_shonku_o_ijipsiyo_atonko.jpg)
 
 Plot Summary
 ------------

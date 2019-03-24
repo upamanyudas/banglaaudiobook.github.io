@@ -5,25 +5,14 @@ author: "Satyajit Ray"
 narrator: "Upamanyu Das"
 date:   2016-04-20 12:40:00
 description: "A sleuth in making!"
-image: 002_feludar_goyendagiri.jpg
+introduction: "ফেলুদা’র গোয়েন্দাগিরি (English title “Danger in Darjeeling”) is a short story written by Satyajit Ray featuring private detective Feluda. It was the very first among the total 35 complete stories/novels of feluda series. This story introduced Feluda and his cousin Tapesh alias Topshe . Topshe is the narrator of all the 35 stories/novels."
+firstpublished: "Sandesh, December - February 1966"
+filename: 002_feludar_goyendagiri
 type: audiobook
 categories: adventure, crime, feluda
 tags: feluda, adventure, satyajit ray, lalmohan babu, topshe, bangla audiobook
 ---
 
-<br>
-
-ফেলুদা’র গোয়েন্দাগিরি (English title “Danger in Darjeeling”) is a short story written by Satyajit Ray featuring private detective Feluda. It was the very first among the total 35 complete stories/novels of feluda series. This story introduced Feluda and his cousin Tapesh alias Topshe . Topshe is the narrator of all the 35 stories/novels.
-
-**First published**: _Sandesh_, December - February 1966
-
-<br>
-
-<!-- <audio src="http://audiobookfiles.upamanyu.in/002_feludar_goyendagiri.mp3" preload="auto"></audio> -->
-<audio id="player" controls><source src="http://audiobookfiles.upamanyu.in/002_feludar_goyendagiri.mp3" type="audio/mp3" /></audio>
-
-<br>
-![Feluda'r Goyendagiri](/assets/images/audiobook_covers/002_feludar_goyendagiri.jpg)
 
 Plot Summary
 ------------

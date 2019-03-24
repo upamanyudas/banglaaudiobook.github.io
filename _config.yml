@@ -18,6 +18,7 @@ host: 0.0.0.0
 markdown: kramdown
 permalink: ":title/"
 highlighter: pygments
+excerpt_separator: <!--more-->
 
 # Pagination
 gems: [jekyll-paginate]
