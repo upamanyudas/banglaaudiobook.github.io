@@ -20,7 +20,8 @@ tags: shonku, adventure, satyajit ray, science fiction, mission to mars, space, 
 <br>
 
 <!-- <audio src="http://audiobookfiles.upamanyu.in/001_bomjatrir_diary.mp3" preload="auto"></audio> -->
-<audio id="player" controls settings>
+<audio crossorigin="" playsinline=""><source src="https://cdn.plyr.io/static/demo/Kishi_Bashi_-_It_All_Began_With_a_Burst.mp3" type="audio/mp3"><source src="https://cdn.plyr.io/static/demo/Kishi_Bashi_-_It_All_Began_With_a_Burst.ogg" type="audio/ogg"></audio>
+<audio id="player" crossorigin="" playsinline="">
 	<source src="http://audiobookfiles.upamanyu.in/001_bomjatrir_diary.mp3" type="audio/mp3" />
 </audio>
 
