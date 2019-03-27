@@ -18,10 +18,10 @@ Though there are other websites for obtaining bengali audiobooks, but either the
 
 Many of you might be interested in the setup I use to record my voice. Here's the setup below:
 
-1. [Apple 27" iMAC](http://www.apple.com/in/imac/){target="_blank"} / [Apple 15" Macbook Pro](http://www.apple.com/in/macbook-pro/){target="_blank"}
-2. [Blue Yeti Microphone](http://www.bluemic.com/products/yeti/){target="_blank"}
-3. [Rode NTG2 Microphone](http://www.rode.com/microphones/ntg-2){target="_blank"}
-4. [Apple Logic Pro X](http://www.apple.com/logic-pro/){target="_blank"}
+1. [Apple 27" iMAC](http://www.apple.com/in/imac/) / [Apple 15" Macbook Pro](http://www.apple.com/in/macbook-pro/)
+2. [Blue Yeti Microphone](http://www.bluemic.com/products/yeti/)
+3. [Rode NTG2 Microphone](http://www.rode.com/microphones/ntg-2)
+4. [Apple Logic Pro X](http://www.apple.com/logic-pro/)
 
 Also, I do not record in a sound-proof room. I just have my Air Conditioner running which generates a white noise which I can later removed.
 
@@ -42,7 +42,7 @@ Upamanyu is a Graphic & Product designer, but his true heart resides in the page
 
 Currently he's learning the skills of conservation filmmaking at University of Otago. 
 
-[http://upamanyu.in/](http://upamanyu.in/){target="_blank"}
+[http://upamanyu.in/](http://upamanyu.in/)
 
 ---
 
