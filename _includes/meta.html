@@ -20,7 +20,7 @@
 {% endif %}
 {% if page.description %}
   <meta content="{{ page.description }}" property="og:description">
-{% elsif page.categories contains "audiobook" %}
+{% elsif page.type contains "audiobook" %}
   <meta content="{{ page.content | strip_html }}" property="og:description">
 {% else %}
   <meta content="{{ site.description }}" property="og:description">
@@ -32,7 +32,7 @@
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
-{% if page.filename and page.categories contains "audiobook" %}
+{% if page.filename and page.type contains "audiobook" %}
   <meta content="{{ site.url }}/assets/images/audiobook_covers/{{ page.filename }}.jpg" property="og:image">
 {% elsif page.filename %}
   <meta content="{{ site.url }}/assets/images/{{ page.filename }}.jpg" property="og:image">
@@ -64,12 +64,12 @@
 {% endif %}
 {% if page.description %}
   <meta name="twitter:description" content="{{ page.description }}">
-{% elsif page.categories contains "audiobook" %}
+{% elsif page.type contains "audiobook" %}
   <meta name="twitter:description" content="{{ page.content | strip_html }}">
 {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
-{% if page.filename and page.categories contains "audiobook" %}
+{% if page.filename and page.type contains "audiobook" %}
   <meta name="twitter:image:src" content="{{ site.url }}/assets/images/audiobook_covers/{{ page.filename }}.jpg">
 {% elsif page.filename %}
   <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.filename }}.jpg">
