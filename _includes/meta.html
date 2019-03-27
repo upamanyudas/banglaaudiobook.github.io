@@ -1,6 +1,11 @@
 {% if page.url == "/404.html" %}
         <meta http-equiv="refresh" content="5; url=/">
 {% endif %}
+
+<!-- general metadata -->
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
 <!-- facebook metadata -->
   <meta content="{{ site.title }} | BanglaAudiobook.in" property="og:site_name">
 {% if page.title %}
@@ -27,10 +32,10 @@
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
-{% if page.image and page.categories contains "audiobook" %}
-  <meta content="{{ site.url }}/assets/images/audiobook_covers/{{ page.image }}" property="og:image">
-{% elsif page.image %}
-  <meta content="{{ site.url }}/assets/images/{{ page.image }}" property="og:image">
+{% if page.filename and page.categories contains "audiobook" %}
+  <meta content="{{ site.url }}/assets/images/audiobook_covers/{{ page.filename }}.jpg" property="og:image">
+{% elsif page.filename %}
+  <meta content="{{ site.url }}/assets/images/{{ page.filename }}.jpg" property="og:image">
 {% else %}
   <meta content="../assets/images/logo-icon.jpg" property="og:image">
 {% endif %}
@@ -64,10 +69,10 @@
 {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
-{% if page.image and page.categories contains "audiobook" %}
-  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/audiobook_covers/{{ page.image }}">
-{% elsif page.image %}
-  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.image }}">
+{% if page.filename and page.categories contains "audiobook" %}
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/audiobook_covers/{{ page.filename }}.jpg">
+{% elsif page.filename %}
+  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.filename }}.jpg">
 {% else %}
   <meta name="twitter:image:src" content="{{ site.url }}/images/logo-icon.png">
 {% endif %}
