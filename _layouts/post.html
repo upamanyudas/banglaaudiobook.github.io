@@ -27,20 +27,16 @@ layout: default
 
   <article class="post-content">
     <br>
-
     {{ page.introduction }}
-
     <br><br> 
-
     <strong>First published</strong>: {{ page.firstpublished }}
-
     <br><br>
-
     <audio id="player" controls><source src="http://audiobookfiles.upamanyu.in/{{ page.filename }}" type="audio/mp3" /></audio>
     <br>
     <p><img src="/assets/images/audiobook_covers/{{ page.filename }}.jpg" alt="{{ page.title }}" /></p>
     <br>
     {{ page.content }}
+    {% include advertisements.html %}
   </article>
 
   <hr>
