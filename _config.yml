@@ -1,9 +1,10 @@
 # Site settings
 title: "BanglaAudiobook.in"
 email: info@banglaaudiobook.in
-description: © 2016-<script>document.write(new Date().getFullYear())</script> BanglaAudiobook.in - go listen!
+description: Listen to the literary treasures of Bengali literature
+copyright: © 2016-<script>document.write(new Date().getFullYear())</script> BanglaAudiobook.in - go listen!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://banglaaudiobook.in" # the base hostname & protocol for your site
+url: "http://banglaaudiobook.in/" # the base hostname & protocol for your site
 twitter_username: audiobookbangla
 github_username:  banglaaudiobook
 gravatar_url: http://www.gravatar.com/avatar/bb857653fcc6b02ec638ee4e64eaf872?s=120
