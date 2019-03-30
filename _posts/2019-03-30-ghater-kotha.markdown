@@ -16,6 +16,8 @@ tags: rabindranath tagore, bangla audiobook
 Plot Summary
 ------------
 
+*Ghate'r Kotha* follows the story of rural Bengal as told by the Bathing Ghat near a river. It is also a story of changing times. The story follows the life and death of Kusum. Her journey from childhood to adulthood. Her struggles with life. Losing the love of her life, getting married and then again falling in love. All this is told from the persective of the stone steps of the bathing ghat.
+
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
