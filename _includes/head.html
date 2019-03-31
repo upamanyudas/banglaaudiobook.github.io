@@ -29,28 +29,6 @@
   <!-- Sharethis Sharing Widget -->
   <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9b1f49fbd80b0011b664ad&product=social-ab' async='async'></script>
 
-  <style>
-    .plyr {
-      border-radius: 4px;
-      box-shadow: 0 2px 5px rgba(0,0,0,.2);
-      margin: 20px auto;
-      color: yellow;
-    }
-    .plyr--audio .plyr__control.plyr__tab-focus, .plyr--audio .plyr__control:hover, .plyr--audio .plyr__control[aria-expanded=true]{
-      background: #FBB813;
-      color: white;
-    }
-    .plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before {
-      background: #FBB813;
-    }
-    .plyr--full-ui input[type=range]{
-      color: #FBB813;
-    }
-    #player {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-    }
-  </style>
+  <!-- Override CSS -->
+  <link rel="stylesheet" href="{{ "/css/override.css" | prepend: site.baseurl }}">
 </head>

@@ -4,33 +4,13 @@ layout: default
 
 <!-- Brief intro -->
 <div class="header-intro">
-  <h2><a href="#"><img src="assets/images/logo-full.png" alt="BanglaAudiobook.in" width="350px"></a></h2>
+  <h2><a href="#"><img src="{{ site.baseurl }}/assets/images/logo-full.png" alt="BanglaAudiobook.in" width="350px"></a></h2>
   <p>Enough of ইংরাজি books.
   <br><i class="fa fa-book" aria-hidden="true"></i><a href="/about"> Lets listen to বাংলা অডিওবুক. &rarr;</a>
   <br><i class="fa fa-headphones" aria-hidden="true"></i> Plug on your headphones for optimum sound quality.</p>
 </div>
 <hr />
 <!-- End intro -->
-
-<style> 
-.search { 
-    border: 1px solid #848484; 
-    -webkit-border-radius: 30px; 
-    -moz-border-radius: 30px; 
-    border-radius: 30px; 
-    outline:0; 
-    width: 300px;
-    height:30px; 
-    padding-left:10px; 
-    padding-right:10px; 
-  } 
-
-  .center {
-    width: 320px;
-    margin: auto; 
-  }
-</style> 
-
 
 <div class="center">
   <form action="get" id="site_search">
@@ -53,7 +33,7 @@ layout: default
 
 <div class="home">
 
-<h1>Latest Posts</h1>
+<h1>Latest audiobooks</h1>
   <ul id="post-list">
     {% for post in paginator.posts %}
       <li>
