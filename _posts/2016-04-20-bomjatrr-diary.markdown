@@ -3,7 +3,7 @@ layout: post
 title:  "Bomjatri'r Diary"
 author: "Satyajit Ray"
 narrator: "Upamanyu Das"
-date:   2016-04-20 12:10:00
+date: 2016-04-20 12:10:00
 description: "A young publisher finds Professor Shonku's astonishing Diary"
 introduction: "ব্যোমযাত্রীর ডায়রি (The Spaceman’s Diary) is the first story of Professor Shonku series by Satyajit Ray. The story follows Professor Trilokeshwar Shonku, a scientist and inventor, who voyaged to Mars and after being attacked by the Martians, fled to a planet named <em>Tafa</em>, where the foolish inhabitants welcomed him cordially and made him a citizen of their planet."
 firstpublished: "Sandesh, September - November 1961"
