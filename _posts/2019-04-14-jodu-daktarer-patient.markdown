@@ -11,6 +11,7 @@ filename: 008_parashuram_samagra_jodu_daktarer_patient
 type: audiobook
 categories: stories, medical drama
 tags: parashuram, rajshekhar basu, thriller, drama, bangla audiobook
+comments: true
 ---
 
 Plot Summary

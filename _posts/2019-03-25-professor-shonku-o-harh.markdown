@@ -11,6 +11,7 @@ filename: 005_professor_shonku_o_harh
 type: audiobook
 categories: adventure, thriller, shonku
 tags: shonku, adventure, satyajit ray, bangla audiobook
+comments: true
 ---
 
 Plot Summary

@@ -11,6 +11,7 @@ filename: 002_feludar_goyendagiri
 type: audiobook
 categories: adventure, crime, feluda
 tags: feluda, adventure, satyajit ray, lalmohan babu, topshe, bangla audiobook
+comments: true
 ---
 
 

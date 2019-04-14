@@ -11,6 +11,7 @@ filename: 004_professor_shonku_o_ijipsiyo_atonko
 type: audiobook
 categories: adventure, thriller, shonku
 tags: shonku, adventure, satyajit ray, bangla audiobook
+comments: true
 ---
 
 

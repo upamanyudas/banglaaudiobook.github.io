@@ -11,6 +11,7 @@ filename: 001_bomjatrir_diary
 type: audiobook
 categories: sci-fi, adventure, shonku
 tags: shonku, adventure, satyajit ray, science fiction, mission to mars, space, bangla audiobook
+comments: true
 ---
 
 

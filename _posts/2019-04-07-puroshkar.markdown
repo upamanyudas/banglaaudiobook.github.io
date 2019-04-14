@@ -11,6 +11,7 @@ filename: 007_golpo_101_puroshkar
 type: audiobook
 categories: stories, golpo 101
 tags: satyajit ray, drama, bangla audiobook
+comments: true
 ---
 
 Plot Summary

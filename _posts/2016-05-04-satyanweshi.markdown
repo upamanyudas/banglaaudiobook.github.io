@@ -11,6 +11,7 @@ filename: 003_satyanweshi
 type: audiobook
 categories: crime, thriller, byomkesh
 tags: byomkesh, adventure, saradindu bandopadhyay, bangla audiobook
+comments: true
 ---
 
 

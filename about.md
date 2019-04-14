@@ -10,7 +10,7 @@ data-size="large">
 Follow @audiobookbangla
 </a>
 
-BanglaAudiobook.in, is an effort to bring to life the literary treasures of _Bengali_. This started out as a small effort to record the audio versions of my favorite stories and novels for my siblings. Their lack of interest to read _Bengali_ literature and enjoy the stories I enjoyed as a child, pushed me to record the first story.
+BanglaAudiobook.in, is an effort to bring to life the literary treasures of _Bengali_. This started out as a small effort to record the audio versions of my favorite stories and novels for my siblings. Their lack of interest to read _Bengali_ literature and enjoy the stories I enjoyed as a child, pushed me to record the first _Bengali_ Audiobook.
 
 Though there are other websites for obtaining bengali audiobooks, but either they are not updated regularly, or their collection excludes the most popular and favorite bengali stories/novels. This was also a push at my initial idea execution stage.
 

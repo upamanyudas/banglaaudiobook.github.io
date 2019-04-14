@@ -11,6 +11,7 @@ filename: 006_golpoguccho_ghater_kotha
 type: audiobook
 categories: stories, golpoguccho
 tags: rabindranath tagore, bangla audiobook
+comments: true
 ---
 
 Plot Summary
