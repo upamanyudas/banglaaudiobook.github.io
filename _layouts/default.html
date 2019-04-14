@@ -31,39 +31,37 @@
       });
     </script>
 
-    <!-- FuckAdBlock - Detects ad blockers -->
-    <script>
-      // Function called if AdBlock is not detected
-      function adBlockNotDetected() {
-        // Do nothing
-      }
-      // Function called if AdBlock is detected
-      function adBlockDetected() {
-        if(!alert('AdBlocker is enabled. Adverts are the only way for us to sustain. Please disable to continue!')){window.location.reload();}
-      }
+    <!-- jQuery Confirm v3 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 
-      // We look at whether FuckAdBlock already exists.
-      if(typeof fuckAdBlock !== 'undefined' || typeof FuckAdBlock !== 'undefined') {
-        // If this is the case, it means that something tries to usurp are identity
-        // So, considering that it is a detection
-        adBlockDetected();
+    <!-- Detects ad blockers -->
+    <script src="/ads.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      if(document.getElementById('dLOHSmjrqGXD')){
       } else {
-        // Otherwise, you import the script FuckAdBlock
-        var importFAB = document.createElement('script');
-        importFAB.onload = function() {
-          // If all goes well, we configure FuckAdBlock
-          fuckAdBlock.onDetected(adBlockDetected)
-          fuckAdBlock.onNotDetected(adBlockNotDetected);
-        };
-        importFAB.onerror = function() {
-          // If the script does not load (blocked, integrity error, ...)
-          // Then a detection is triggered
-          adBlockDetected(); 
-        };
-        importFAB.integrity = 'sha256-xjwKUY/NgkPjZZBOtOxRYtK20GaqTwUCf7WYCJ1z69w=';
-        importFAB.crossOrigin = 'anonymous';
-        importFAB.src = 'https://cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js';
-        document.head.appendChild(importFAB);
+        $.confirm({
+            title: 'AdBlocker detected',
+            theme: 'modern',
+            content: "Ads aren't what you're here for. But ads help us support our work. So, please consider to add this domain to your blocker's whitelist.",
+            closeIcon: false,
+            buttons: {
+                done: {
+                    text: 'Done',
+                    btnClass: 'btn-green',
+                    action: function () {
+                      location.reload();  
+                    }
+                },
+                donate: {
+                    text: 'Donate',
+                    btnClass: 'btn-default',
+                    action: function () {
+                        window.open('https://flattr.com/domain/banglaaudiobook.in', '_blank');
+                    }
+                }
+            }
+        });
       }
     </script>
 
