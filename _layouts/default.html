@@ -39,7 +39,7 @@
       }
       // Function called if AdBlock is detected
       function adBlockDetected() {
-        alert('AdBlock is enabled. Please disable to support us.');
+        if(!alert('AdBlocker is enabled. Adverts are the only way for us to sustain. Please disable to continue!')){window.location.reload();}
       }
 
       // We look at whether FuckAdBlock already exists.
