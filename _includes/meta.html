@@ -77,9 +77,9 @@
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 {% if page.filename and page.type contains "audiobook" %}
-  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/audiobook_covers/{{ page.filename }}.jpg">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/audiobook_covers/{{ page.filename }}.jpg">
 {% elsif page.filename %}
-  <meta name="twitter:image:src" content="{{ site.url }}/assets/images/{{ page.filename }}.jpg">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.filename }}.jpg">
 {% else %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/logo-icon.png">
+  <meta name="twitter:image" content="{{ site.url }}/images/logo-icon.png">
 {% endif %}
