@@ -31,6 +31,12 @@
   <!-- Sharethis Sharing Widget -->
   <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5c9b1f49fbd80b0011b664ad&product=social-ab' async='async'></script>
 
+  <!-- AdBlock blocker script Adi.js -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="{{ "/js/advertisement.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/jquery.adi.js" | prepend: site.baseurl }}"></script>
+  <link rel="stylesheet" href="{{ "/css/jquery.adi.css" | prepend: site.baseurl }}">
+
   <!-- Override CSS -->
   <link rel="stylesheet" href="{{ "/css/override.css" | prepend: site.baseurl }}">
 </head>
