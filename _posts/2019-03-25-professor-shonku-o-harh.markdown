@@ -4,7 +4,7 @@ title:  "Professor Shonku O Harh"
 author: "Satyajit Ray"
 narrator: "Upamanyu Das"
 date:   2019-03-25 08:31:00
-description: "Shonku excavates the skeleton of a pre-historic anima;"
+description: "Shonku excavates the skeleton of a pre-historic animal."
 introduction: "প্রোফেসর শঙ্কু ও হাড় (Professor Shonku and the Skeleton) is the third story of Professor Shonku series by Satyajit Ray. The story follows Professor Trilokeshwar Shonku, a scientist and inventor, who travels to the Nilgiri mountains to excavate the skleton of a pre-historic animal. He gets tangled with a mystic and his revenge."
 firstpublished: "Sandesh, April 1964"
 filename: 005_professor_shonku_o_harh
