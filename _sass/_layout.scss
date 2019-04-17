@@ -262,7 +262,15 @@ Post List
     font-size: 24px;
 }
 
+/*=========================================
+Single Post Items
+=========================================== */
 
+.post-single {
+    background: $grey-color-lighter;
+    padding: 25px;
+    border-radius: 20px 10px 10px 10px;
+}
 
 /**
  * Posts
