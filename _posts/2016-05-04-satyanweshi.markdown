@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Satyanweshi"
-author: "Saradindu Bandopadhyay"
+author: "Sharadindu Bandyopadhyay"
 narrator: "Upamanyu Das"
 date:   2016-05-04 09:15:00
 description: "A young detective takes a false identity to solve a horrible crime."
