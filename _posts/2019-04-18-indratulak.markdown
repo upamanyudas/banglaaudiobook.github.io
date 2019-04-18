@@ -4,7 +4,7 @@ title:  "Indratulak"
 author: "Sharadindu Bandyopadhyay"
 narrator: "Upamanyu Das"
 date:   2019-04-18 21:00:00
-description: "ইন্দ্রতুলক The advent of Indra as <em>Debraj</em>, told from a historical fiction perspective."
+description: "The advent of Indra as <em>Debraj</em>, told from a historical fiction perspective."
 introduction: "ইন্দ্রতুলক (Indra's Cotton) is the story of a race, from being settled in a valley surrounded by hills, to their expansion to tame the neighbouring lands in search of food and ambition."
 firstpublished: "2nd July, 1948"
 filename: 009_saradindu_samagra_indratulak
