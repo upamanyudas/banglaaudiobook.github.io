@@ -16,7 +16,7 @@
 <!-- facebook metadata -->
   <meta content="{{ site.title }} | BanglaAudiobook.in" property="og:site_name">
 {% if page.title %}
-  <meta content="{{ page.title }} | BanglaAudiobook.in" property="og:title">
+  <meta content="{{ page.title }} - {{ page.author }} | BanglaAudiobook.in" property="og:title">
 {% else %}
   <meta content="{{ site.title }} | BanglaAudiobook.in" property="og:title">
 {% endif %}
@@ -62,7 +62,7 @@
 <meta name="twitter:site" content="@audiobookbangla">
 <meta name="twitter:creator" content="@cloudstudio">
 {% if page.title %}
-  <meta name="twitter:title" content="{{ page.title }} | BanglaAudiobook.in">
+  <meta name="twitter:title" content="{{ page.title }} - {{ page.author }} | BanglaAudiobook.in">
 {% else %}
   <meta name="twitter:title" content="{{ site.title }} | BanglaAudiobook.in">
 {% endif %}
