@@ -1,0 +1,43 @@
+---
+label: Audiobook
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: text
+  name: narrator
+  label: narrator
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: textarea
+  name: introduction
+  label: introduction
+- type: text
+  name: firstpublished
+  label: firstpublished
+- type: text
+  name: filename
+  label: filename
+- type: text
+  name: type
+  label: type
+- type: text
+  name: categories
+  label: categories
+- type: text
+  name: tags
+  label: tags
+- type: boolean
+  name: comments
+  label: comments
