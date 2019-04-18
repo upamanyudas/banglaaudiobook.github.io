@@ -35,35 +35,64 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.4/jquery-confirm.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 
+    <script src="{{ "/assets/js/cookies.js" | prepend: site.baseurl }}"></script>
+
     <!-- Detects ad blockers -->
     <script type="text/javascript">
       function adBlockNotDetected() {
-        //Do nothing
+        if (!getCookie('askDonation')) {
+          $.alert({
+            title: 'Consider Supporting Us',
+              theme: 'modern',
+              content: "I'm a small scale creator running mostly out of a small budget. Please consider supporting this project. Even the tiniest donation would make a big difference. Thank you!",
+              closeIcon: false,
+              buttons: {
+                  donate: {
+                      text: 'Donate',
+                      btnClass: 'btn-green',
+                      action: function () {
+                          window.open('https://flattr.com/domain/banglaaudiobook.in', '_blank');
+                          setCookie('askDonation', 1, 200);
+                      }
+                  },
+                  close: {
+                      text: 'Don\'t ask me again',
+                      btnClass: 'btn-red',
+                      action: function () {
+                        setCookie('askDonation', 1, 200);
+                      }
+                  },
+              }
+          });
+        }
       }
       // Function called if AdBlock is detected
       function adBlockDetected() {
-        $.confirm({
-            title: 'AdBlocker detected',
-            theme: 'modern',
-            content: "Ads aren't what you're here for. But ads help us support our work. So, please consider to add this domain to your blocker's whitelist.",
-            closeIcon: false,
-            buttons: {
-                done: {
-                    text: 'Done',
-                    btnClass: 'btn-green',
-                    action: function () {
-                      location.reload();  
-                    }
-                },
-                donate: {
-                    text: 'Donate',
-                    btnClass: 'btn-default',
-                    action: function () {
-                        window.open('https://flattr.com/domain/banglaaudiobook.in', '_blank');
-                    }
-                }
-            }
-        });
+        if (!getCookie('adsOk')) {
+          $.confirm({
+              title: 'AdBlocker Detected',
+              theme: 'modern',
+              content: "Ads aren't what you're here for. But ads help us support our work. So, please consider to add this domain to your blocker's whitelist.",
+              closeIcon: false,
+              buttons: {
+                  done: {
+                      text: 'Done',
+                      btnClass: 'btn-green',
+                      action: function () {
+                        location.reload();  
+                      }
+                  },
+                  donate: {
+                      text: 'Donate',
+                      btnClass: 'btn-default',
+                      action: function () {
+                          window.open('https://flattr.com/domain/banglaaudiobook.in', '_blank');
+                          setCookie('adsOk', 1, 200);
+                      }
+                  }
+              }
+          });
+        }
       }
 
       // We look at whether FuckAdBlock already exists.
@@ -89,6 +118,19 @@
         importFAB.src = 'https://cdnjs.cloudflare.com/ajax/libs/fuckadblock/3.2.1/fuckadblock.min.js';
         document.head.appendChild(importFAB);
       }
+    </script>
+
+    <!-- Warn visitors about cookie usage -->
+    <script type="text/javascript" id="cookieinfo"
+      src="//cookieinfoscript.com/js/cookieinfo.min.js"
+      data-bg="#3a3339"
+      data-fg="#FFFFFF"
+      data-link="#FBB813"
+      data-divlinkbg="#FBB813"
+      data-cookie="CookieInfoScript"
+      data-position="top"
+      data-text-align="left"
+    >
     </script>
 
   </body>
