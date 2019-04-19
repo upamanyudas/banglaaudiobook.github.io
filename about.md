@@ -45,7 +45,7 @@ Upamanyu is a Graphic & Product designer, but his true heart resides in the page
 
 Currently he's learning the skills of conservation filmmaking at University of Otago. 
 
-[http://upamanyu.in/](http://upamanyu.in/)
+[http://upamanyu.in/](http://upamanyu.in/){:target="_blank"}
 
 ---
 
