@@ -55,4 +55,7 @@
   .jconfirm-box {
     width: 100%;
   }
+  .page-link {
+    margin-right: -5px;
+  }
 }
