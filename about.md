@@ -10,18 +10,23 @@ data-size="large">
 Follow @audiobookbangla
 </a>
 
-BanglaAudiobook.in, is an effort to bring to life the literary treasures of _Bengali_. This started out as a small effort to record the audio versions of my favorite stories and novels for my siblings. Their lack of interest to read _Bengali_ literature and enjoy the stories I enjoyed as a child, pushed me to record the first _Bengali_ Audiobook.
+BanglaAudiobook.in, is an effort to bring to life the literary treasures of বাংলা (_Bengali_). This started out as a small effort to record the audio versions of my favorite stories and novels for my siblings. Their lack of interest to read _Bengali_ literature and enjoy the stories I enjoyed as a child, pushed me to record the first _Bengali_ Audiobook.
 
 Though there are other websites for obtaining bengali audiobooks, but either they are not updated regularly, or their collection excludes the most popular and favorite bengali stories/novels. This was also a push at my initial idea execution stage.
 
 Many of you might be interested in the setup I use to record my voice. Here's the setup below:
 
-1. [Apple 27" iMAC](http://www.apple.com/in/imac/) / [Apple 15" Macbook Pro](http://www.apple.com/in/macbook-pro/)
-2. [Blue Yeti Microphone](http://www.bluemic.com/products/yeti/)
-3. [Rode NTG2 Microphone](http://www.rode.com/microphones/ntg-2)
-4. [Apple Logic Pro X](http://www.apple.com/logic-pro/)
+1. [Apple 15" Macbook Pro](http://www.apple.com/in/macbook-pro/)
+1. [Rode NTG2 Microphone](http://www.rode.com/microphones/ntg-2)
+1. [Focusrite Scarlett Solo](https://focusrite.com/usb-audio-interface/scarlett/scarlett-solo)
+1. [Philips BASS+ In-ear Headphones](https://www.philips.co.nz/c-p/SHE4305WT_00/bass-plus-headphones-with-mic)
+1. [Apple Logic Pro X](http://www.apple.com/logic-pro/)
 
-Also, I do not record in a sound-proof room. I just have my Air Conditioner running which generates a white noise which I can later removed.
+An image of my setup:
+
+![Setup](/assets/images/setup.jpg)
+
+Also, I do not record in a sound-proof room. I just record in my room which has lot of soft surfaces, which dampens the sound.
 
 ---
 
