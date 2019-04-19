@@ -50,4 +50,4 @@ Currently he's learning the skills of conservation filmmaking at University of O
 ---
 
 <h2>About the site</h2>
-This site was made on an [Apple rMBP](http://www.apple.com/in/macbook-pro/) using [Sublime Text 3](http://sublimetext.com/3). This site is hosted on [GitHub](https://github.com/banglaaudiobook/banglaaudiobook.github.io) & uploaded to GitHub using [Sublime Merge](https://www.sublimemerge.com/). It's powered by [Jekyll](https://jekyllrb.com/). The text is set in [Montserrat](https://github.com/JulietaUla/Montserrat).
+This site was made on an [Apple rMBP](http://www.apple.com/in/macbook-pro/){:target="_blank"} using [Sublime Text 3](http://sublimetext.com/3){:target="_blank"}. This site is hosted on [GitHub](https://github.com/banglaaudiobook/banglaaudiobook.github.io){:target="_blank"} & uploaded to GitHub using [Sublime Merge](https://www.sublimemerge.com/){:target="_blank"}. It's powered by [Jekyll](https://jekyllrb.com/){:target="_blank"}. The text is set in [Montserrat](https://github.com/JulietaUla/Montserrat){:target="_blank"}.
