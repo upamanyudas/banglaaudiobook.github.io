@@ -16,11 +16,11 @@ Though there are other websites for obtaining bengali audiobooks, but either the
 
 Many of you might be interested in the setup I use to record my voice. Here's the setup below:
 
-1. [Apple 15" Macbook Pro](http://www.apple.com/in/macbook-pro/)
-1. [Rode NTG2 Microphone](http://www.rode.com/microphones/ntg-2)
-1. [Focusrite Scarlett Solo](https://focusrite.com/usb-audio-interface/scarlett/scarlett-solo)
-1. [Philips BASS+ In-ear Headphones](https://www.philips.co.nz/c-p/SHE4305WT_00/bass-plus-headphones-with-mic)
-1. [Apple Logic Pro X](http://www.apple.com/logic-pro/)
+1. [Apple 15" Macbook Pro](http://www.apple.com/in/macbook-pro/){:target="_blank"}
+1. [Rode NTG2 Microphone](http://www.rode.com/microphones/ntg-2){:target="_blank"}
+1. [Focusrite Scarlett Solo](https://focusrite.com/usb-audio-interface/scarlett/scarlett-solo){:target="_blank"}
+1. [Philips BASS+ In-ear Headphones](https://www.philips.co.nz/c-p/SHE4305WT_00/bass-plus-headphones-with-mic){:target="_blank"}
+1. [Apple Logic Pro X](http://www.apple.com/logic-pro/){:target="_blank"}
 
 An image of my setup:
 
