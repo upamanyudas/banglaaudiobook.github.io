@@ -75,19 +75,19 @@
               content: "Ads aren't what you're here for. But ads help us support our work. So, please consider to add this domain to your blocker's whitelist.",
               closeIcon: false,
               buttons: {
-                  done: {
-                      text: 'Done',
-                      btnClass: 'btn-green',
-                      action: function () {
-                        location.reload();  
-                      }
-                  },
                   donate: {
                       text: 'Donate',
                       btnClass: 'btn-blue',
                       action: function () {
                           window.open('https://flattr.com/domain/banglaaudiobook.in', '_blank');
                           setCookie('adsOkDonate', 1, 2000);
+                      }
+                  },
+                  done: {
+                      text: 'Done',
+                      btnClass: 'btn-green',
+                      action: function () {
+                        location.reload();  
                       }
                   }
               }
