@@ -7,17 +7,17 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.narrator %} • Narrated by: {{ page.narrator }}{% endif %}</p>
   </header>
-  
+
   <!-- Sharethis -->
   <div class="sharethis-inline-share-buttons"></div>
 
   <article class="post-content">
     <br>
     {{ page.introduction }}
-    <br><br> 
+    <br><br>
     <strong>First published</strong>: {{ page.firstpublished }}
     <br><br>
-    <audio id="player" controls><source src="http://audiobookfiles.upamanyu.in/{{ page.filename }}.mp3" type="audio/mp3" /></audio>
+    <audio id="player" controls><source src="https://hubic.com/home/browser/thumb/?uri=default/audiobookfiles/{{ page.filename }}.mp3" type="audio/mp3" /></audio>
     <br>
     <p><img src="/assets/images/audiobook_covers/{{ page.filename }}.jpg" alt="{{ page.title }}" /></p>
     <br>
