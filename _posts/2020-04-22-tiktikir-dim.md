@@ -1,13 +1,11 @@
 ---
-layout: default
+layout: post
 title: Tiktikir Dim
 author: Sharadindu Samagra
 narrator: Upamanyu Das
 date: 2020-04-22 12:00:00 +0000
 description: A comic account of how the ghost of a lizard kept on haunting the narrator.
-introduction: টিকটিকির ডিম (Lizard's Egg) is a comic account of how the ghost of a
-  lizard kept on haunting the narrator; and the basic structure of this story tends
-  readers to interrogate the falsity associated with its description.
+introduction: টিকটিকির ডিম (Lizard's Egg) is a comic account of how the ghost of a lizard kept on haunting the narrator; and the basic structure of this story tends readers to interrogate the falsity associated with its description.
 firstpublished: "1929"
 filename: 010_saradindu_samagra_tiktikir_dim
 type: audiobook
