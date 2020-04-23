@@ -31,9 +31,9 @@
 {% endif %}
 
 {% if page.filename and page.type contains "audiobook" %}
-  <meta property="og:image" content="{{ site.url }}/assets/images/audiobook_covers/{{ page.filename }}.jpg">
+  <meta property="og:image" content="{{ site.url }}assets/images/audiobook_covers/{{ page.filename }}.jpg">
 {% elsif page.filename %}
-  <meta property="og:image" content="{{ site.url }}/assets/images/{{ page.filename }}.jpg">
+  <meta property="og:image" content="{{ site.url }}assets/images/{{ page.filename }}.jpg">
 {% else %}
   <meta property="og:image" content="../assets/images/logo-icon.jpg">
 {% endif %}
@@ -43,13 +43,13 @@
 {% endif %}
 
 {% if page.filename and page.type contains "audiobook" %}
-  <meta name="twitter:image" content="{{ site.url }}/assets/images/audiobook_covers/{{ page.filename }}.jpg">
+  <meta name="twitter:image" content="{{ site.url }}assets/images/audiobook_covers/{{ page.filename }}.jpg">
 {% elsif page.filename %}
-  <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.filename }}.jpg">
+  <meta name="twitter:image" content="{{ site.url }}assets/images/{{ page.filename }}.jpg">
 {% else %}
-  <meta name="twitter:image" content="{{ site.url }}/images/logo-icon.png">
+  <meta name="twitter:image" content="{{ site.url }}images/logo-icon.png">
 {% endif %}
 
 <!--  Non-Essential, But Recommended -->
-<meta property="og:site_name" content="{{ site.title }} | BanglaAudiobook.in">
+<meta property="og:site_name" content="{{ page.title }} | BanglaAudiobook.in">
 <meta name="twitter:image:alt" content="BanglaAudiobook">
