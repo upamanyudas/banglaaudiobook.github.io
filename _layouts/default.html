@@ -10,6 +10,22 @@
         {% include footer.html %}
     </div>
 
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+
+    <!-- Change book display layout -->
+    <script type="text/javascript">
+      $(window).on('load resize', function() {
+        if($(window).width() > 750) {
+          $('div[id="book"]').addClass('col-xs-2');
+          $('div[id="book"]').removeClass('col-sm');
+        } else {
+          $('div[id="book"]').addClass('col-sm');
+          $('div[id="book"]').removeClass('col-xs-2');
+        }
+      })
+    </script>
+
     <!-- Headroom.js - Hide your header until you need it -->
     <script src="//cdn.jsdelivr.net/headroomjs/0.5.0/headroom.min.js"></script>
     <script type="text/javascript">
@@ -87,7 +103,7 @@
                       text: 'Done',
                       btnClass: 'btn-green',
                       action: function () {
-                        location.reload();  
+                        location.reload();
                       }
                   }
               }
@@ -111,7 +127,7 @@
         importFAB.onerror = function() {
           // If the script does not load (blocked, integrity error, ...)
           // Then a detection is triggered
-          adBlockDetected(); 
+          adBlockDetected();
         };
         importFAB.integrity = 'sha256-xjwKUY/NgkPjZZBOtOxRYtK20GaqTwUCf7WYCJ1z69w=';
         importFAB.crossOrigin = 'anonymous';
@@ -159,7 +175,7 @@
       })();
     </script>
   <!--End of Tawk.to Script-->
-    
+
 
   </body>
 </html>
