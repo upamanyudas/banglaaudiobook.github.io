@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tiktikir Dim
-author: Sharadindu Samagra
+author: Sharadindu Bandyopadhyay
 narrator: Upamanyu Das
 date: 2020-04-22 12:00:00 +1230
 description: A comic account of how the ghost of a lizard kept on haunting the narrator.

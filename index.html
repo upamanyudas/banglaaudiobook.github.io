@@ -38,16 +38,15 @@ layout: default
   <div class="row">
     {% for post in paginator.posts %}
     <div id="book" class="col-xs-2">
-      <div class="box bookCover">
-        <a class="postImgage" href="{{ post.url | prepend: site.baseurl }}">
+      <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
+        <div class="box bookCover">
           <img src="/assets/images/audiobook_covers/{{ post.filename }}.jpg" alt="{{ post.title }}" style="width: 100%; object-fit: cover;" />
-        </a>
-        <br>
-        <a href="{{ post.url | prepend: site.baseurl }}">
-          <aside class="dates">{{ post.date | date: "%b %-d" }}</aside>
-        </a>
-        <a href="{{ post.url | prepend: site.baseurl }}"><h2>{{ post.title }}</h2> <p style="font-size: 85%;">{{ post.description }}</p></a>
-      </div>
+          <br>
+          <aside class="author">{{ post.author }}</aside>
+          <h2>{{ post.title }}</h2>
+          <p style="font-size: 85%;">{{ post.description }}</p>
+        </div>
+      </a>
     </div>
     {% endfor %}
   </div>

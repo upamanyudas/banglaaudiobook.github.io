@@ -57,13 +57,13 @@
   border: 4px solid $brand-color;
 }
 
-.dates {
+.author {
     float: right;
     text-align: right;
     position: relative;
     top: 1px;
     font: 300 17px/2 $base-font-family;
-    color: #bbb;
+    color: $grey-color;
 }
 
 // Header hiding
