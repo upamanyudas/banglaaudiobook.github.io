@@ -47,7 +47,7 @@ jQuery(function() {
           var item = loaded_data[result.ref];
 
           // Build a snippet of HTML for this result
-          var appendString = '<a href="' + item.url + '">' + item.title + '</a>';
+          var appendString = '<a href="' + item.url + '">' + item.title + ' by ' + item.author + '</a>';
 
           // Add it to the results
           $search_results.append(appendString);
