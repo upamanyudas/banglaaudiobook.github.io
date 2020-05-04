@@ -34,10 +34,12 @@ layout: default
 
 <h1 style="text-align: center;">Latest Audiobooks</h1>
 <br>
+{% include section-filter_bar.html %}
+<br>
 <div class="home">
-  <div class="row">
+  <div id="books-container" class="row">
     {% for post in paginator.posts %}
-    <div id="book" class="col-xs-2">
+    <div id="book" class="col-xs-2" data-author="{{ post.author }}">
       <a href="{{ post.url | prepend: site.baseurl }}" target="_blank">
         <div class="box bookCover">
           <img src="/assets/images/audiobook_covers/{{ post.filename }}.jpg" alt="{{ post.title }}" style="width: 100%; object-fit: cover;" />

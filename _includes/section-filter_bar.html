@@ -1,0 +1,12 @@
+<div id="filter-bar" style="text-align: center;">
+        <a href="#" id="resetLink" onclick="resetFilters()" style="font-size: 8px; display: none;">CLEAR ALL</a>
+
+        <div class="filter-form-label" style="font-size: 80%;">Authors</div>
+        <select id="author-filter">
+            <option>None</option>
+            {% assign sorted = site.posts | map: 'author' | sort | uniq %}
+            {% for author in sorted %}
+                <option value="{{ author }}">{{ author }}</option>
+            {% endfor %}
+        </select>
+</div>

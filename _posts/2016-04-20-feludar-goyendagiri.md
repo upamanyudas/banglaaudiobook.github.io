@@ -9,6 +9,7 @@ introduction: "ফেলুদা’র গোয়েন্দাগিরি (En
 firstpublished: "Sandesh, December - February 1966"
 filename: 002_feludar_goyendagiri
 type: audiobook
+series: "Feluda"
 categories: adventure, crime, feluda
 tags: feluda, adventure, satyajit ray, lalmohan babu, topshe, bangla audiobook
 comments: true

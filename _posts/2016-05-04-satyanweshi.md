@@ -9,6 +9,7 @@ introduction: "সত্যান্বেষী (Lit: The Truth Seeker) is a de
 firstpublished: "1931"
 filename: 003_satyanweshi
 type: audiobook
+series: "Byomkesh"
 categories: crime, thriller, byomkesh
 tags: byomkesh, adventure, saradindu bandopadhyay, bangla audiobook
 comments: true

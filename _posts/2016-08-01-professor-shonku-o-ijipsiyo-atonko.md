@@ -9,6 +9,7 @@ introduction: "প্রোফেসর শঙ্কু ও ইজিপ্স�
 firstpublished: "Sandesh, April 1963"
 filename: 004_professor_shonku_o_ijipsiyo_atonko
 type: audiobook
+series: "Professor Shonku"
 categories: adventure, thriller, shonku
 tags: shonku, adventure, satyajit ray, bangla audiobook
 comments: true

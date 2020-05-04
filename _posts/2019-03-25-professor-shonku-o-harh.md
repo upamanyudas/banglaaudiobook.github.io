@@ -9,6 +9,7 @@ introduction: "প্রোফেসর শঙ্কু ও হাড় (Professor
 firstpublished: "Sandesh, April 1964"
 filename: 005_professor_shonku_o_harh
 type: audiobook
+series: "Professor Shonku"
 categories: adventure, thriller, shonku
 tags: shonku, adventure, satyajit ray, bangla audiobook
 comments: true
