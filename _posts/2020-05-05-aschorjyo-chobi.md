@@ -16,7 +16,7 @@ comments: true
 Plot Summary
 ------------
 
-*Aschorjyo Chobi* is the story of the primitive desires and instincts of human beings. A farmer in rural Japan, discovers a mirror, left behind by an urban man. The people of the said village have never seen a mirror before. The mirror then sparks a series of events in the village, where people try to make sense of the surprising objet.
+*Aschorjyo Chobi* is the story of the primitive desires and instincts of human beings. A farmer in rural Japan, discovers a mirror, left behind by an urban man. The people of the said village have never seen a mirror before. The mirror then sparks a series of events in the village, where people try to make sense of the surprising objcet.
 
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
